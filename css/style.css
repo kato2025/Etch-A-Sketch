@@ -1,0 +1,32 @@
+/* Main container*/
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 960px;
+        margin: 0 auto;
+    }
+    .square {
+        width: 60px;
+        height: 60px;
+        border: .1px solid black;
+    }
+/* Number of squares */
+    button#btnNoSquares {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        width: 200px;
+        height: 50px;
+        background-color: #0a3bc4;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button#btnNoSquares:hover {
+        background-color: #2a51ee;
+    }
+        
