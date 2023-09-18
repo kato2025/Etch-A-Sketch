@@ -29,4 +29,14 @@
     button#btnNoSquares:hover {
         background-color: #2a51ee;
     }
+    footer {
+        margin-top: 40px;
+        padding: 5px;
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        background-color: #0a3bc4;
+    }
         
